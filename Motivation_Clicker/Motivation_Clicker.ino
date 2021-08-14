@@ -38,6 +38,7 @@ void loop() {
       lcd.clear();
       lcd.setCursor(2, 0);
       lcd.print(words[i]);
+      delay(1000);
       i++;
     }
     
@@ -46,6 +47,7 @@ void loop() {
     lcd.clear();
     lcd.setCursor(2, 0);
     lcd.print(words[i]);
+    delay(1000);
     i++;
     }
     
