@@ -1,7 +1,7 @@
 const int buttonPin = 8;
 int counter = 0;
-String words[] = {"wow very nice!","geng lo you","awsome!", "damn son","hiong leh you","nice one dude"};
 int i = 0;
+String words[] = {"wow very nice!","geng lo you","awsome!", "damn son","hiong leh you","nice one dude"};
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2); 
